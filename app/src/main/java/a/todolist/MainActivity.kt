@@ -37,11 +37,6 @@ class MainActivity : AppCompatActivity(), TaskAdapter.ItemClickListener {
         retrieveTasks()
     }
 
-    /*    private void retrieveTasks() {
-        // TODO БД: Загрузка всего списка дел из БД
-        final List<TaskEntity> tasks = db.taskDao().loadAllTasks();
-        adapter.setTasks(tasks);
-    }*/
     // повторный запрос данных при любых изменениях в БД
     private fun retrieveTasks() {
         a.todolist.AppExecutors.instance?.diskIO()?.execute(Runnable {
