@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Список дел</string>
+    <string name="add_button">Добавить</string>
+    <string name="add_task_activity_name">Новая задача</string>
+    <string name="edit_task_description">Описание</string>
+    <string name="high_priority">Срочно</string>
+    <string name="low_priority">Не срочно</string>
+    <string name="main_activity_name">Все дела</string>
+    <string name="med_priority">Обычно</string>
+    <string name="priority_1">1</string>
+    <string name="priority_2">2</string>
+    <string name="priority_3">3</string>
+    <string name="priority_string">Приоритет</string>
+    <string name="update_button">Сохранить</string>
+</resources>
