@@ -1,7 +1,7 @@
 package a.todolist
 
-import android.os.Looper
 import android.os.Handler
+import android.os.Looper
 import java.util.concurrent.Executor
 import java.util.concurrent.Executors
 
