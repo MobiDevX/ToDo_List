@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity(), TaskAdapter.ItemClickListener {
     lateinit var recyclerView: RecyclerView
     private var adapter: a.todolist.TaskAdapter? = null
     private var db: AppDatabase? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
