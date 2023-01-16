@@ -2,6 +2,7 @@ package a.todolist
 
 import androidx.recyclerview.widget.RecyclerView
 import a.todolist.database.TaskEntity
+import android.annotation.SuppressLint
 import android.view.ViewGroup
 import android.view.LayoutInflater
 import android.content.Context
@@ -75,6 +76,7 @@ class TaskAdapter(
     /* метод получает список *//* метод обновляет данные в списке, если были внесены изменения */
     var tasks: List<TaskEntity>?
         get() = taskEntities
+        @SuppressLint("NotifyDataSetChanged")
         set(taskEntities) {
             this.taskEntities = taskEntities
             notifyDataSetChanged()
